@@ -51,6 +51,11 @@ Development
  - update FileDataProvider caches after each code-change to make changes available to users `rake write_cache_for_file_data_provider`
  - FileDataProvider tests might fail if caches are not updates
 
+Localized sorting
+=================
+If you would like to have the countries list sorted alphabetically in different languages there is a [sort_alphabetical](https://github.com/grosser/sort_alphabetical) gem, which helps you do just that.
+
+
 TODO
 ====
  - include other language/country code formats (3-letter codes...) ?
